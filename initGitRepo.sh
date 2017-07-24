@@ -87,3 +87,7 @@ git status
 git commit -am "initial commit"
 
 git status
+
+git push -u origin master
+
+git status
