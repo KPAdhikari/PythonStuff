@@ -1,0 +1,222 @@
+KPAd's FunPrompt $ cd GitProj/KPAdhikari/PythonStuff/
+KPAd's FunPrompt $ ls
+Bash_Notebooks                                   OctaveInstallationScreenOutput.txt               gnuplot-kernel.ipynb
+C_Cpp_Notebooks                                  Physics                                          gnuplot-magic.ipynb
+Courses_edX                                      Plots                                            myFirstOctave_notebook_VectorAndMatrices.ipynb
+DjangoStuff                                      PyHEP_2021                                       myFirstRuby_notebook.ipynb
+Fortran_Notebooks                                PythonBasics                                     myFirstScilab_nootbook.ipynb
+GUIs                                             ROOT_Notebooks                                   myFirstTcl_nootbook.ipynb
+GooglePythonClass                                SlidesWdJupyterNRevealDotJS                      myOctaveNotebook_PlottingWalkthrough.ipynb
+IPython_Jupyter_Notebooks                        SpecialVariablesDunders                          octave-workspace
+Julia                                            StreamlitStuff                                   publish.sh
+Jython_Notebooks                                 TidBits                                          tic-tac-toe_game_7LTkj2V5.py
+KpModules                                        VirtualEnvs                                      variousKernelInstallations.ipynb
+MachineLearning                                  WebAPIsWithFlask
+MyJavaNotes                                      gitAddAll_Commit_Push_KPAdhikari_leadersmeNow.sh
+KPAd's FunPrompt $ cd VirtualEnvs/
+KPAd's FunPrompt $ ls
+PyEnv2021        project1_env     py27_env         requirements.txt
+KPAd's FunPrompt $ ls ..
+Bash_Notebooks                                   OctaveInstallationScreenOutput.txt               gnuplot-kernel.ipynb
+C_Cpp_Notebooks                                  Physics                                          gnuplot-magic.ipynb
+Courses_edX                                      Plots                                            myFirstOctave_notebook_VectorAndMatrices.ipynb
+DjangoStuff                                      PyHEP_2021                                       myFirstRuby_notebook.ipynb
+Fortran_Notebooks                                PythonBasics                                     myFirstScilab_nootbook.ipynb
+GUIs                                             ROOT_Notebooks                                   myFirstTcl_nootbook.ipynb
+GooglePythonClass                                SlidesWdJupyterNRevealDotJS                      myOctaveNotebook_PlottingWalkthrough.ipynb
+IPython_Jupyter_Notebooks                        SpecialVariablesDunders                          octave-workspace
+Julia                                            StreamlitStuff                                   publish.sh
+Jython_Notebooks                                 TidBits                                          tic-tac-toe_game_7LTkj2V5.py
+KpModules                                        VirtualEnvs                                      variousKernelInstallations.ipynb
+MachineLearning                                  WebAPIsWithFlask
+MyJavaNotes                                      gitAddAll_Commit_Push_KPAdhikari_leadersmeNow.sh
+KPAd's FunPrompt $ cd ../DjangoStuff/
+KPAd's FunPrompt $ ls
+Django_Stuff.ipynb Learning_Log
+KPAd's FunPrompt $ ls Learning_Log/
+db.sqlite3    learning_log  learning_logs ll_env        manage.py
+KPAd's FunPrompt $ ls
+Django_Stuff.ipynb Learning_Log
+KPAd's FunPrompt $ mkdir Learning_Log21
+KPAd's FunPrompt $ cd Learning_Log21/
+KPAd's FunPrompt $ ls
+KPAd's FunPrompt $ mkdir learning_log
+KPAd's FunPrompt $ ls ../Learning_Log/learning_log
+__init__.py  __pycache__  settings.py  settings.py~ urls.py      wsgi.py
+KPAd's FunPrompt $ ls ../Learning_Log/ll_env/
+bin        lib        pyvenv.cfg
+KPAd's FunPrompt $ python -m venv ll_env
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python: No module named venv
+KPAd's FunPrompt $ pwd
+/Users/kpadhikari/GitProj/KPAdhikari/PythonStuff/DjangoStuff/Learning_Log21
+KPAd's FunPrompt $ ls
+learning_log
+KPAd's FunPrompt $ cd learning_log/
+KPAd's FunPrompt $ python3 -m venv ll_env
+KPAd's FunPrompt $ ls
+ll_env
+KPAd's FunPrompt $ pwd
+/Users/kpadhikari/GitProj/KPAdhikari/PythonStuff/DjangoStuff/Learning_Log21/learning_log
+KPAd's FunPrompt $ ls -a
+.      ..     ll_env
+KPAd's FunPrompt $ rm -fr *
+KPAd's FunPrompt $ cd ..
+KPAd's FunPrompt $ ls
+learning_log
+KPAd's FunPrompt $ cd learning_log/
+KPAd's FunPrompt $ python3 -m venv ll_env
+KPAd's FunPrompt $ du -sh 
+ 15M	.
+KPAd's FunPrompt $ ls ll_env/
+bin        include    lib        pyvenv.cfg
+KPAd's FunPrompt $ du -sh ll_env/*
+ 36K	ll_env/bin
+  0B	ll_env/include
+ 15M	ll_env/lib
+4.0K	ll_env/pyvenv.cfg
+KPAd's FunPrompt $ source ll_env/bin/activate
+(ll_env) KPAd's FunPrompt $ ls ll_env/bin/
+Activate.ps1  activate      activate.csh  activate.fish pip           pip3          pip3.9        python        python3       python3.9
+(ll_env) KPAd's FunPrompt $ ls ll_env/include/
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/
+python3.9
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/
+site-packages
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/
+_distutils_hack             pip                         pkg_resources               setuptools-57.0.0.dist-info
+distutils-precedence.pth    pip-21.1.3.dist-info        setuptools
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/setuptools
+__init__.py             archive_util.py         config.py               extern                  launch.py               py34compat.py           version.py
+__pycache__             build_meta.py           dep_util.py             glob.py                 lib2to3_ex.py           sandbox.py              wheel.py
+_deprecation_warning.py cli-32.exe              depends.py              gui-32.exe              monkey.py               script (dev).tmpl       windows_support.py
+_distutils              cli-64.exe              dist.py                 gui-64.exe              msvc.py                 script.tmpl
+_imp.py                 cli.exe                 errors.py               gui.exe                 namespaces.py           ssl_support.py
+_vendor                 command                 extension.py            installer.py            package_index.py        unicode_utils.py
+(ll_env) KPAd's FunPrompt $ pwd
+/Users/kpadhikari/GitProj/KPAdhikari/PythonStuff/DjangoStuff/Learning_Log21/learning_log
+(ll_env) KPAd's FunPrompt $ du -sh ../../
+.ipynb_checkpoints/    Django_Stuff.ipynb     Learning_Log/          Learning_Log21/        spec_Learning_Log.txt  
+(ll_env) KPAd's FunPrompt $ du -sh ../../*
+ 40K	../../Django_Stuff.ipynb
+ 47M	../../Learning_Log
+ 15M	../../Learning_Log21
+4.0K	../../spec_Learning_Log.txt
+(ll_env) KPAd's FunPrompt $ which pip
+/Users/kpadhikari/GitProj/KPAdhikari/PythonStuff/DjangoStuff/Learning_Log21/learning_log/ll_env/bin/pip
+(ll_env) KPAd's FunPrompt $ pip install Django
+Collecting Django
+  Downloading Django-3.2.5-py3-none-any.whl (7.9 MB)
+     |████████████████████████████████| 7.9 MB 11.9 MB/s 
+Collecting asgiref<4,>=3.3.2
+  Downloading asgiref-3.4.1-py3-none-any.whl (25 kB)
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.1-py3-none-any.whl (42 kB)
+     |████████████████████████████████| 42 kB 771 kB/s 
+Collecting pytz
+  Using cached pytz-2021.1-py2.py3-none-any.whl (510 kB)
+Installing collected packages: sqlparse, pytz, asgiref, Django
+Successfully installed Django-3.2.5 asgiref-3.4.1 pytz-2021.1 sqlparse-0.4.1
+(ll_env) KPAd's FunPrompt $ du -sh *
+ 52M	ll_env
+(ll_env) KPAd's FunPrompt $ du -sh ll_env/
+ 52M	ll_env/
+(ll_env) KPAd's FunPrompt $ du -sh ll_env/**
+ 52K	ll_env/bin
+  0B	ll_env/include
+ 52M	ll_env/lib
+4.0K	ll_env/pyvenv.cfg
+(ll_env) KPAd's FunPrompt $ ls ll_env/bin/
+Activate.ps1    activate        activate.fish   django-admin.py pip3            python          python3.9
+__pycache__     activate.csh    django-admin    pip             pip3.9          python3         sqlformat
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/
+python3.9
+(ll_env) KPAd's FunPrompt $ ls ll_env/include/
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/
+site-packages
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/
+Django-3.2.5.dist-info      asgiref-3.4.1.dist-info     pip                         pytz                        setuptools-57.0.0.dist-info
+_distutils_hack             distutils-precedence.pth    pip-21.1.3.dist-info        pytz-2021.1.dist-info       sqlparse
+asgiref                     django                      pkg_resources               setuptools                  sqlparse-0.4.1.dist-info
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/pkg_resources/
+__init__.py __pycache__ _vendor     extern      tests
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/pkg_resources/extern/
+__init__.py __pycache__
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/pkg_resources/tests/
+data
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/pkg_resources/tests/data/
+my-test-package-source
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/pkg_resources/tests/data/my-test-package-source/
+__pycache__ setup.py
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/django/
+__init__.py  __pycache__  bin          contrib      db           forms        middleware   template     test         utils
+__main__.py  apps         conf         core         dispatch     http         shortcuts.py templatetags urls         views
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/Django-3.2.5.dist-info/
+AUTHORS          INSTALLER        LICENSE          LICENSE.python   METADATA         RECORD           REQUESTED        WHEEL            entry_points.txt top_level.txt
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/django/db
+__init__.py    __pycache__    backends       migrations     models         transaction.py utils.py
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/django/db/backends/
+__init__.py       base              dummy             oracle            signals.py        utils.py
+__pycache__       ddl_references.py mysql             postgresql        sqlite3
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/django/db/backends/mysql/
+__init__.py      __pycache__      base.py          client.py        compiler.py      creation.py      features.py      introspection.py operations.py    schema.py        validation.py
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/django/db/backends/oracle/
+__init__.py      base.py          creation.py      functions.py     operations.py    utils.py
+__pycache__      client.py        features.py      introspection.py schema.py        validation.py
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/django/db/backends/postgresql/
+__init__.py      __pycache__      base.py          client.py        creation.py      features.py      introspection.py operations.py    schema.py
+(ll_env) KPAd's FunPrompt $ ls ll_env/lib/python3.9/site-packages/django/db/backends/sqlite3/
+__init__.py      __pycache__      base.py          client.py        creation.py      features.py      introspection.py operations.py    schema.py
+(ll_env) KPAd's FunPrompt $ ls
+ll_env
+(ll_env) KPAd's FunPrompt $ pwd
+/Users/kpadhikari/GitProj/KPAdhikari/PythonStuff/DjangoStuff/Learning_Log21/learning_log
+(ll_env) KPAd's FunPrompt $ django-admin.py startproject learning_log .
+/Users/kpadhikari/GitProj/KPAdhikari/PythonStuff/DjangoStuff/Learning_Log21/learning_log/ll_env/bin/django-admin.py:17: RemovedInDjango40Warning: django-admin.py is deprecated in favor of django-admin.
+  warnings.warn(
+(ll_env) KPAd's FunPrompt $ du -sh *
+ 16K	learning_log
+ 52M	ll_env
+4.0K	manage.py
+(ll_env) KPAd's FunPrompt $ ls learning_log/
+__init__.py asgi.py     settings.py urls.py     wsgi.py
+(ll_env) KPAd's FunPrompt $ ls ll_env/bin/
+Activate.ps1    activate        activate.fish   django-admin.py pip3            python          python3.9
+__pycache__     activate.csh    django-admin    pip             pip3.9          python3         sqlformat
+(ll_env) KPAd's FunPrompt $ ls
+learning_log ll_env       manage.py
+(ll_env) KPAd's FunPrompt $ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+(ll_env) KPAd's FunPrompt $ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+(ll_env) KPAd's FunPrompt $ ls
+db.sqlite3   learning_log ll_env       manage.py
+(ll_env) KPAd's FunPrompt $ ll
+total 264
+-rw-r--r--  1 kpadhikari  staff   128K Jul 15 15:33 db.sqlite3
+drwxr-xr-x  8 kpadhikari  staff   256B Jul 15 15:33 learning_log
+drwxr-xr-x  6 kpadhikari  staff   192B Jul 15 14:44 ll_env
+-rwxr-xr-x  1 kpadhikari  staff   668B Jul 15 15:20 manage.py
+(ll_env) KPAd's FunPrompt $

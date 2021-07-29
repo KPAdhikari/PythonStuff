@@ -1,0 +1,56 @@
+#Ref: https://realpython.com/python-virtual-environments-a-primer/
+
+KPAd's FunPrompt $ cd VirtualEnvs/
+KPAd's FunPrompt $ ls
+project1_env     py27_env         requirements.txt
+KPAd's FunPrompt $ mkdir PyEnv2021
+KPAd's FunPrompt $ cd PyEnv2021/
+KPAd's FunPrompt $ touch someScreenOutputs.txt
+KPAd's FunPrompt $ e someScreenOutputs.txt &
+[1] 99293
+KPAd's FunPrompt $ pwd
+/Users/kpadhikari/GitProj/KPAdhikari/PythonStuff/VirtualEnvs/PyEnv2021
+[1]+  Done                    open -a Emacs someScreenOutputs.txt
+KPAd's FunPrompt $
+
+
+
+KPAd's FunPrompt $ python
+
+WARNING: Python 2.7 is not recommended. 
+This version is included in macOS for compatibility with legacy software. 
+Future versions of macOS will not include Python 2.7. 
+Instead, it is recommended that you transition to using 'python3' from within Terminal.
+
+Python 2.7.16 (default, May  8 2021, 11:48:02) 
+[GCC Apple LLVM 12.0.5 (clang-1205.0.19.59.6) [+internal-os, ptrauth-isa=deploy on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.prefix
+'/System/Library/Frameworks/Python.framework/Versions/2.7'
+>>> import site
+>>> site.getsitepackages()
+['/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/site-python', '/Library/Python/2.7/site-packages']
+>>> quit
+Use quit() or Ctrl-D (i.e. EOF) to exit
+>>> quit()
+
+
+KPAd's FunPrompt $ pwd
+/Users/kpadhikari/GitProj/KPAdhikari/PythonStuff/VirtualEnvs
+KPAd's FunPrompt $ 
+
+
+KPAd's FunPrompt $ python3
+Python 3.9.6 (default, Jun 29 2021, 05:25:02) 
+[Clang 12.0.5 (clang-1205.0.22.9)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.prefix
+'/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9'
+>>> import site
+>>> site.getsitepackages()
+['/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages']
+>>> quit()
+KPAd's FunPrompt $
+

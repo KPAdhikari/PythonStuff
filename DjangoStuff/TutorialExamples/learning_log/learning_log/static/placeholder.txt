@@ -1,0 +1,14 @@
+This file ensures that learning_log/static/ will be added to the project.
+Django will collect static files and place them in learning_log/static/.
+
+kp: Following is lines I added - more than asked
+
+From Page 470 of Python Crash course - Eric Matthes:
+
+On Heroku, Django collects all the static files and places them in one place
+so it can manage them efficiently. We’ll create a directory for these static
+files. Inside the learning_log folder we’ve been working from is another
+folder called learning_log. In this nested folder, make a new folder called
+static with the path learning_log/learning_log/static/. We also need to make a
+placeholder file to store in this directory for now, because empty directories
+won’t be included in the project when it’s pushed to Heroku.
