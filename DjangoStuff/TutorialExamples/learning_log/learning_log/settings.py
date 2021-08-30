@@ -23,9 +23,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tx146lgi@&=+i=^i@l8xq#y_sw^@_m6=5ut_jiipmp5620++a#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+#kp: DEGUG is reset to False below for the heroku settings (as recommended by the tutorial/book)
 DEBUG = True
-
 ALLOWED_HOSTS = []
+#Above two lines are replaced by the following two (after creating 404.html and 500.html in
+# learning_log/learning_log/templates - to be able to see custom error pages
+# rather than the default Django debug pages
+#DEBUG = False
+#ALLOWED_HOSTS = ['localhost']
+#When you’re finished checking the error pages, set DEBUG back to True to further develop Learning Log. (Make sure DEBUG is still set to False in the section of settings.py that applies to the Heroku deployment.)
 
 
 # Application definition
@@ -62,7 +68,8 @@ ROOT_URLCONF = 'learning_log.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        #'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'learning_log/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -152,7 +159,12 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     
     # Allow all host headers.
-    ALLOWED_HOSTS = ['*']
+    #ALLOWED_HOSTS = ['*']
+    # Allow only Heroku to host the project.
+    ALLOWED_HOSTS = ['learning-log-kpa.herokuapp.com']
+
+    DEBUG = False
+
     
     # Static asset configuration
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
